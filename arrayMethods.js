@@ -18,11 +18,23 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 // do your work below!
 //PUSH
 var nameArray = [];
-nameArray.push("Ricky", "Peters");
+  nameArray.push("Ricky", "Peters");
 console.log(nameArray);
 
 var genericNumberArray = []
-genericNumberArray.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+  genericNumberArray.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+console.log(genericNumberArray);
 
 //POP
 var popResult = colors.pop();
+console.log(popResult);
+
+//REVERSE
+var reverse = scrambledWords.reverse();
+var reverseNumbers = phoneNumber.reverse();
+console.log(reverse);
+console.log(reverseNumbers);
+
+
+
+
