@@ -70,11 +70,20 @@ var updatedOrders = orderQueue.concat({ takeOut: 'Spaghetti'}, { takeOut: 'Lasag
 
 //JOIN
 var sentence = scrambledWords.join(" ");
-console.log(sentence);
+  console.log(sentence);
 
 var myFruits = fruitCollection.join(" + ");
-console.log(myFruits)
+  console.log(myFruits)
 
+//SLICE
+var favoriteFriends = friends.slice(1, 3);
+  console.log(favoriteFriends);
+var owesMoney = friends.slice(3, 6);
+  console.log(owesMoney);
+
+//TO STRING
+var monthNameString = monthNames.toString();
+console.log(monthNameString);
 
 
 
