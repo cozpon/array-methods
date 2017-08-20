@@ -35,6 +35,12 @@ var reverseNumbers = phoneNumber.reverse();
 console.log(reverse);
 console.log(reverseNumbers);
 
+//SHIFT
+var nextOrder = orderQueue.shift();
+console.log(nextOrder);
+
+//SORT
+
 
 
 
