@@ -19,27 +19,60 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 //PUSH
 var nameArray = [];
   nameArray.push("Ricky", "Peters");
-console.log(nameArray);
+  console.log(nameArray);
 
 var genericNumberArray = []
   genericNumberArray.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-console.log(genericNumberArray);
+  console.log(genericNumberArray);
 
 //POP
 var popResult = colors.pop();
-console.log(popResult);
+  console.log(popResult);
 
 //REVERSE
 var reverse = scrambledWords.reverse();
 var reverseNumbers = phoneNumber.reverse();
-console.log(reverse);
-console.log(reverseNumbers);
+  console.log(reverse);
+  console.log(reverseNumbers);
 
 //SHIFT
 var nextOrder = orderQueue.shift();
-console.log(nextOrder);
+  console.log(nextOrder);
 
 //SORT
+mixedNums.sort();
+mixedWords.sort();
+
+//SPLICE
+var notFruit = fruitCollection.splice(1, 3);
+  console.log(notFruit);
+
+var notGems = gemBox.splice(5, 2);
+var alsoNotGems = gemBox.splice(6, 4);
+  console.log(gemBox);
+
+upToTen.splice(2, 0, 3, 4, 5, 6, 7, 8);
+  console.log(upToTen);
+
+brownOnly.splice(1, 5, "brown", "brown", "brown");
+  console.log(brownOnly);
+
+//UNSHIFT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
