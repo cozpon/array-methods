@@ -83,13 +83,19 @@ var owesMoney = friends.slice(3, 6);
 
 //TO STRING
 var monthNameString = monthNames.toString();
-console.log(monthNameString);
+  console.log(monthNameString);
 
+//INDEX OF
+var favoriteColor = colors.indexOf("Red");
+  console.log(favoriteColor);
+var favoriteEvenNumber = mixedNums.indexOf(76);
+  console.log(favoriteEvenNumber);
 
-
-
-
-
+//LAST INDEX OF
+var lastNine = bulkNumbers.lastIndexOf(9);
+  console.log(lastNine);
+var lastFive = bulkNumbers.lastIndexOf(5);
+  console.log(lastFive);
 
 
 
